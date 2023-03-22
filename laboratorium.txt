@@ -1,0 +1,109 @@
+git commit
+git branch newImage
+git checkout newImage; git commit
+git merge bugFix
+git checkout bugFix; git merge main
+git rebase main
+git rebase bugFix
+git checkout c1; git checkout main; git commit; git checkout c2
+git log
+fed2
+^
+~<num>
+git rebase main^
+git checkout c3; git checkout HEAD^; git checkout HEAD^; git checkout HEAD^
+git checkout HEAD~4
+git branch -f main HEAD~3
+git reset
+git revert
+git cherry-pick
+git rebase -i HEAD~4
+git commit --amend
+git tag v1 c1
+git describe main
+
+
+git commit
+git commit
+
+git branch bugFix
+git checkout bugFix
+
+git branch bugFix
+git checkout bugFix
+git commit
+git checkout main
+git commit
+git merge bugFix
+
+git branch bugFix
+git checkout bugFix
+git commit
+git checkout main
+git commit
+git checkout bugFix
+git rebase main
+
+git checkout c2
+git checkout c4
+
+
+git checkout c4
+git checkout c3
+
+git branch -f main c6
+git branch -f bugFix c0
+git checkout c6
+git checkout c1
+
+git checkout pushed
+git revert pushed 
+git checkout local 
+git branch -f local c1
+
+git checkout main
+git cherry-pick c3 c4 c7
+
+git checkout main
+git rebase -i HEAD~4
+
+git checkout main
+git cherry-pick c4
+
+git rebase -i c1 c3
+git checkout c2'
+git commit --amend
+git checkout c1
+git rebase -i c1 c3
+git checkout c3''
+git branch -f main HEAD
+
+git rebase -i c1 c2
+git checkout c1
+git rebase -i c1 c3
+git branch -f main HEAD
+
+git tag v0 c1
+git tag v1 c2
+git checkout c2
+
+git checkout bugFix
+git commit
+
+git rebase c2 c3
+git rebase -i HEAD c6
+git rebase HEAD c7
+git branch -f main HEAD
+
+git checkout c2
+git branch bugWork
+git checkout c7
+git checkout main
+
+git rebase -i c1 c4
+git rebase -i c1 c5
+git branch -f two HEAD
+git checkout c2'
+git branch -f one HEAD
+git checkout c2
+git branch -f three HEAD
